@@ -1,0 +1,111 @@
+.card {
+    width: 384px;
+    height: 522px;
+    background-color: var(--white-0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    padding:24px;
+    align-items:flex-start;
+    box-shadow: 8px 8px #000000;
+}
+
+.card-img {
+    width: 336px;
+    height: 200px;
+}
+
+.card-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius:  10px;
+}
+
+.card-content {
+    width: 336px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.catagory {
+    width: 82px;
+    height: 29px;
+    background-color: var(--yellow-0);
+    padding: 4px 12px;
+    border-radius: 4px; 
+}
+
+.catagory > p {
+    width: 58px;
+    height: 21px;
+    font-family: var(--figtree-font);
+    font-weight:var(--extra-bold);
+    font-size: 14px;
+    text-align: left;
+    color:var(--grey-950);
+}
+
+.publish {
+    width: 143px;
+    height:21px;
+    font-family: var(--figtree-font);
+    font-weight:var(--medium);
+    font-size: 14px;
+    text-align: left;
+    color:var(--grey-950);
+}
+
+.title {
+    width:inherit;
+    height: 36px;
+    font-family: var(--figtree-font);
+    font-weight:var(--extra-bold);
+    font-size: 24px;
+    text-align: left;
+    color:var(--grey-950);
+}
+
+.description {
+    width: inherit;
+    height:72px;
+    font-family: var(--figtree-font);
+    font-weight:var(--medium);
+    font-size: 16px;
+    text-align: left;
+    color:var(--grey-500);
+}
+
+.card-author {
+    width: 129px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-pic {
+    height: 32px;
+    width: 32px;
+}
+
+.user-pic > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-author > p {
+    height: 21px;
+    width: 85px;
+    font-family: var(--figtree-font);
+    font-weight:var(--extra-bold);
+    font-size: 14px;
+    text-align: left;
+    color:var(--grey-950);
+}
