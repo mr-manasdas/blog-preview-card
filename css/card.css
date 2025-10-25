@@ -109,3 +109,12 @@
     text-align: left;
     color:var(--grey-950);
 }
+
+@media (hover: hover) {
+    .card:hover {
+    box-shadow: 16px 16px #000000;
+    }
+    .card:hover .title {
+        color:var(--yellow-0);
+    }
+}
