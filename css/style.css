@@ -28,9 +28,10 @@ body {
     max-width: 1440px;
     margin:0 auto;
     background-color: var(--yellow-0);
-    display:flex;
-    justify-content: center;
-    align-items: centerS;
+    display:grid;
+    width: 100vw;
+    height:100vh;
+    place-items: center;
 }
 
 .text {
@@ -38,13 +39,9 @@ body {
     line-height: 150%;
 }
 
- /* media queries for mobile and desktop */
+ /* media queries for mobile device */
 
- @media screen and (max-width :1440px) {
-   
- }
-
- @media screen and (max-width :375px) {
+ @media screen and (max-width :376px) {
     .card{
         width: 327px;
         height: 501px;
