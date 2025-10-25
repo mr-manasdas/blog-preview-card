@@ -8,14 +8,15 @@
 }
 
 :root {
+    --figtree-font:"Figtree",sans-serif;
+    --extra-bold:800;
+    --medium :500;
+
+
     --white-0:#ffffff;
     --yellow-0:#f4d04e;
     --grey-950:#111111;
     --grey-500:#6b6b6b;
-
-    --figtree-font:"Figtree",sans-serif;
-    --extra-bold:800;
-    --medium :500;
 }
 
 * {
